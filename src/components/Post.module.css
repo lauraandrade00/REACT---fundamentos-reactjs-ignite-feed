@@ -73,3 +73,8 @@
     padding-top: 1.5rem;
     border-top: 1px solid var(--gray-600);
 }
+
+.commentForm > strong {
+    line-height: 1.6;
+    color: var(--gray-100);
+}
