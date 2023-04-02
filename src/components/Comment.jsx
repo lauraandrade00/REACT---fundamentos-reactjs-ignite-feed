@@ -17,6 +17,7 @@ export function Comment() {
                     </header>
 
                     <p>Muito bom Larissa, parabéns!! 👏👏</p>
+                    <p></p>
                 </div>
 
                 <footer>Aplaudir</footer>
