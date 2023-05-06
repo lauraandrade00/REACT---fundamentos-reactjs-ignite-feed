@@ -1,3 +1,4 @@
+import { ThumbsUp, Trash } from 'phosphor-react';
 import styles from './Comment.module.css';
 
 export function Comment() {
@@ -13,14 +14,21 @@ export function Comment() {
                             <time title='22 de março às 17:34h'dateTime='2023-03-22 17:34:21'>Cerca de 1h atrás</time>
                         </div>
 
-                        <button title='Deletar comentário'></button>
+                        <button title='Deletar comentário'>
+                            <Trash size={24} />
+                        </button>
                     </header>
 
                     <p>Muito bom Larissa, parabéns!! 👏👏</p>
                     <p></p>
                 </div>
 
-                <footer>Aplaudir</footer>
+                <footer>
+                    <button>
+                        <ThumbsUp />
+                        Aplaudir <span>20</span>
+                    </button>
+                </footer>
             </div>
         </div>
     )
